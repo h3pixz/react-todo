@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 18px;
+}
+
+.search {
+    min-width: 595px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #252525;
+}
+
+.all{
+    background-color: #6C63FF;
+    border: none;
+    width: 85px;
+    height: 38px;
+    border-radius: 10px;
+}
+
+.sunImg{
+    color: #6C63FF;
+    background-color: #6C63FF;
+    border: none;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+}
+
+.sunImg:hover{
+    cursor: pointer;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.all:hover{
+    cursor: pointer;
+}
