@@ -1,6 +1,10 @@
 import "./NewVote.css";
 
-export function NewVote() {
+interface NewProps {
+  onClose: () => void;
+}
+
+export function NewVote({ onClose }: NewProps) {
   return (
     <>
       <div className="container">
@@ -9,8 +13,10 @@ export function NewVote() {
           <input placeholder="Input your vote..." className="textVote"></input>
         </div>
         <div className="twoButtons">
-            <button className="cansel">CANCEL</button>
-            <button className="apply">APPLY</button>
+          <button className="cansel" onClick={onClose}>
+            CANCEL
+          </button>
+          <button className="apply">APPLY</button>
         </div>
       </div>
     </>
