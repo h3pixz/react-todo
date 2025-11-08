@@ -7,6 +7,7 @@ interface NewProps {
 export function NewVote({ onClose }: NewProps) {
   return (
     <>
+    <div className="modal-overlay" onClick={onClose}></div>
       <div className="container">
         <div className="inputVote">
           <h1>NEW VOTE</h1>
