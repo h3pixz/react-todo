@@ -30,7 +30,7 @@
 
 .all:hover{
     cursor: pointer;
-    background-color: #6b63ffd2;
+    background-color: #534CC2;
 }
 
 .sunImg{
@@ -48,7 +48,7 @@
 
 .sunImg:hover{
     cursor: pointer;
-    background-color: #6b63ffd2;
+    background-color: #534CC2;
 }
 
 .bar{

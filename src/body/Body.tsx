@@ -5,7 +5,9 @@ export function Body() {
   return (
     <>
       <div className="body">
-        <button className="plusBtn">
+        <button 
+        className="plusBtn"
+        >
           <img src={plus}></img>
         </button>
       </div>
