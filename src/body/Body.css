@@ -1,0 +1,26 @@
+.body {
+    height: 545px;
+    width: 750px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0 auto;
+    position: relative;
+}
+
+.plusBtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #6C63FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.plusBtn:hover {
+    background-color: #6b63ffd2;
+}
