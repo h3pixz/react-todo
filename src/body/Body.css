@@ -1,26 +1,73 @@
 .body {
-    height: 545px;
-    width: 750px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin: 0 auto;
-    position: relative;
+  height: 545px;
+  width: 750px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0 auto;
+  position: relative;
 }
 
 .plusBtn {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    background-color: #6C63FF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: #6c63ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
 }
 
 .plusBtn:hover {
-    background-color: #534CC2;
+  background-color: #534cc2;
+}
+
+.notes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 520px;
+  margin: 0 auto;
+  position: relative;
+
+  .delete {
+    width: 26px;
+    height: 26px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    background: #252525;
+    cursor: pointer;
+  }
+}
+
+.firstcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+
+  p {
+    font-size: 20px;
+  }
+
+  .submit {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #6c63ff;
+    background: #252525;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}
+
+hr {
+  width: 520px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 17px;
+  border: 1px solid #6c63ff;
 }
