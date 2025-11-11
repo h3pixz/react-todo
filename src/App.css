@@ -6,6 +6,7 @@
     font-weight: 500;
     color: white;
     margin: 0;
+    overflow: hidden;
 }
 
 body{

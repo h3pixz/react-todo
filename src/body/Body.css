@@ -1,5 +1,5 @@
 .body {
-  height: 490px;
+  height: 480px;
   width: 750px;
   display: flex;
   align-items: flex-end;
@@ -19,6 +19,8 @@
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 20px;
 }
 
 .plusBtn:hover {
